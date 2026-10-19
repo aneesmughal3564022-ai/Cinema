@@ -437,6 +437,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onExit }) => {
       <header className="sticky top-0 z-40 bg-[#080d19]/95 backdrop-blur-2xl border-b border-white/10 px-4 sm:px-8 py-3 flex items-center justify-between gap-4">
         <div className="flex items-center gap-3 sm:gap-6">
           <div className="flex items-center gap-2">
+            <img src="/favicon.svg" alt="CineVerse" className="w-6 h-6 rounded-md shadow-sm" />
             <span className="gold-gradient-text text-xl font-black font-heading tracking-wider">CINEVERSE</span>
             <span className="text-[10px] font-mono uppercase tracking-widest text-amber-400 bg-amber-500/10 border border-amber-500/30 px-2 py-0.5 rounded-md font-bold">
               Admin OS

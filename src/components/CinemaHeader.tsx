@@ -32,13 +32,20 @@ export const CinemaHeader: React.FC<CinemaHeaderProps> = ({
         <a 
           href="#/" 
           onClick={(e) => { e.preventDefault(); handleMobileNav('movies'); }}
-          className="text-lg sm:text-2xl font-black font-heading tracking-tight text-white whitespace-nowrap shrink-0 hover:opacity-95 transition-all flex items-center group cursor-pointer"
+          className="text-lg sm:text-2xl font-black font-heading tracking-tight text-white whitespace-nowrap shrink-0 hover:opacity-95 transition-all flex items-center gap-2 group cursor-pointer"
         >
-          <span className="gold-gradient-text tracking-wider text-xl sm:text-2xl font-black">CINE</span>
-          <span className="text-white tracking-wider text-xl sm:text-2xl font-black ml-1">VERSE</span>
-          <span className="text-[9px] sm:text-[11px] uppercase font-mono font-bold tracking-widest text-amber-300 bg-amber-500/10 border border-amber-500/40 px-1.5 sm:px-2 py-0.5 rounded-md ml-1.5 sm:ml-2">
-            PK
-          </span>
+          <img 
+            src="/favicon.svg" 
+            alt="CineVerse Logo" 
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg shadow-md shadow-amber-500/20 group-hover:scale-105 transition-transform" 
+          />
+          <div className="flex items-center">
+            <span className="gold-gradient-text tracking-wider text-xl sm:text-2xl font-black">CINE</span>
+            <span className="text-white tracking-wider text-xl sm:text-2xl font-black ml-1">VERSE</span>
+            <span className="text-[9px] sm:text-[11px] uppercase font-mono font-bold tracking-widest text-amber-300 bg-amber-500/10 border border-amber-500/40 px-1.5 sm:px-2 py-0.5 rounded-md ml-1.5 sm:ml-2">
+              PK
+            </span>
+          </div>
         </a>
 
         {/* Center: Desktop Navigation Links matching Screenshot */}
