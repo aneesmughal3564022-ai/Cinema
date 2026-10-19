@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Movie, CityName, BookingTicket } from './types/cinema';
 import { INITIAL_MOVIES, CINEMA_LOCATIONS } from './data/moviesData';
 import { CinemaHeader } from './components/CinemaHeader';
@@ -9,8 +9,10 @@ import { BookingModal } from './components/BookingModal';
 import { MovieDetailsModal } from './components/MovieDetailsModal';
 import { TicketLookupModal } from './components/TicketLookupModal';
 import { CinemaFooter } from './components/CinemaFooter';
+import { AdminPortal } from './components/AdminPortal';
 
 export const App: React.FC = () => {
+  const [currentHash, setCurrentHash] = useState<string>(() => window.location.hash || '#/');
   const [movies] = useState<Movie[]>(INITIAL_MOVIES);
   const [selectedCity, setSelectedCity] = useState<CityName>('Karachi');
   const [activeHeroMovie, setActiveHeroMovie] = useState<Movie>(INITIAL_MOVIES[0]);
@@ -18,6 +20,14 @@ export const App: React.FC = () => {
   const [selectedGenre, setSelectedGenre] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [activeNavTab, setActiveNavTab] = useState<string>('movies');
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setCurrentHash(window.location.hash || '#/');
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   // Modals state
   const [bookingMovie, setBookingMovie] = useState<Movie | null>(null);
@@ -59,6 +69,18 @@ export const App: React.FC = () => {
 
   const nowShowingMovies = movies.filter(m => m.status === 'now-showing');
   const upcomingMovies = movies.filter(m => m.status === 'upcoming');
+
+  // If URL hash points to Admin portal, render AdminPortal console
+  if (currentHash.startsWith('#/admin')) {
+    return (
+      <AdminPortal
+        onExit={() => {
+          window.location.hash = '#/';
+          setCurrentHash('#/');
+        }}
+      />
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-[#05070c] text-slate-100 selection:bg-amber-500/30 selection:text-amber-200">

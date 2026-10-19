@@ -77,6 +77,9 @@ export const CinemaHeader: React.FC<CinemaHeaderProps> = ({
           </button>
           <a
             href="#/admin"
+            onClick={() => {
+              window.location.hash = '#/admin';
+            }}
             className="transition-colors whitespace-nowrap px-2 py-2 text-slate-400 hover:text-amber-300 text-xs font-mono"
           >
             Admin Portal
@@ -169,11 +172,14 @@ export const CinemaHeader: React.FC<CinemaHeaderProps> = ({
             </button>
             <a
               href="#/admin"
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                window.location.hash = '#/admin';
+              }}
               className="w-full text-left px-4 py-2.5 rounded-xl text-xs font-mono text-slate-400 hover:bg-white/5 flex items-center justify-between"
             >
               <span>Admin Box Office Portal</span>
-              <ShieldCheck className="w-4 h-4" />
+              <ShieldCheck className="w-4 h-4 text-amber-400" />
             </a>
           </div>
         </div>
