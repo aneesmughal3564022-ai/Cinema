@@ -597,125 +597,211 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onExit }) => {
                 </div>
               </div>
 
-              {/* 4 KPI Metric Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-5 space-y-2 relative overflow-hidden">
-                  <div className="text-xs font-mono text-slate-400 flex items-center justify-between">
-                    <span>TODAY'S REVENUE</span>
-                    <span className="text-amber-400 font-bold">PKR</span>
+              {/* 4 KPI Metric Cards - 2x2 on mobile, 4-col on desktop */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4">
+                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-3.5 sm:p-5 space-y-1 sm:space-y-2 relative overflow-hidden">
+                  <div className="text-[10px] sm:text-xs font-mono text-slate-400 flex items-center justify-between">
+                    <span className="truncate">TODAY'S REVENUE</span>
+                    <span className="text-amber-400 font-bold shrink-0">PKR</span>
                   </div>
-                  <div className="text-2xl font-black font-mono text-white">
-                    Rs. {totalRevenue.toLocaleString()}
+                  <div className="text-lg sm:text-2xl font-black font-mono text-white tracking-tight">
+                    Rs. {(totalRevenue / 1000000).toFixed(2)}M
                   </div>
-                  <div className="text-[11px] text-emerald-400 font-semibold flex items-center gap-1">
-                    <span>&uarr; +18.4% vs yesterday</span>
+                  <div className="text-[10px] sm:text-[11px] text-emerald-400 font-semibold flex items-center gap-1">
+                    <span>&uarr; +18.4% live</span>
                   </div>
                 </div>
 
-                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-5 space-y-2 relative overflow-hidden">
-                  <div className="text-xs font-mono text-slate-400 flex items-center justify-between">
-                    <span>TICKETS SOLD TODAY</span>
-                    <span className="text-slate-500 font-bold">Bookings</span>
+                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-3.5 sm:p-5 space-y-1 sm:space-y-2 relative overflow-hidden">
+                  <div className="text-[10px] sm:text-xs font-mono text-slate-400 flex items-center justify-between">
+                    <span className="truncate">TICKETS SOLD</span>
+                    <span className="text-slate-500 font-bold shrink-0">Today</span>
                   </div>
-                  <div className="text-2xl font-black font-mono text-white">
+                  <div className="text-lg sm:text-2xl font-black font-mono text-white tracking-tight">
                     {totalBookingsCount}
                   </div>
-                  <div className="text-[11px] text-slate-400">
-                    Across Karachi, Lahore & Islamabad
+                  <div className="text-[10px] sm:text-[11px] text-slate-400 truncate">
+                    Karachi, Lhr, Isb
                   </div>
                 </div>
 
-                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-5 space-y-2 relative overflow-hidden">
-                  <div className="text-xs font-mono text-slate-400 flex items-center justify-between">
-                    <span>AVERAGE OCCUPANCY</span>
-                    <span className="text-amber-400 font-bold">%</span>
+                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-3.5 sm:p-5 space-y-1 sm:space-y-2 relative overflow-hidden">
+                  <div className="text-[10px] sm:text-xs font-mono text-slate-400 flex items-center justify-between">
+                    <span className="truncate">OCCUPANCY</span>
+                    <span className="text-amber-400 font-bold shrink-0">%</span>
                   </div>
-                  <div className="text-2xl font-black font-mono text-amber-300">
+                  <div className="text-lg sm:text-2xl font-black font-mono text-amber-300 tracking-tight">
                     86.4%
                   </div>
-                  <div className="text-[11px] text-emerald-400 font-semibold">
-                    Royal IMAX selling at capacity
+                  <div className="text-[10px] sm:text-[11px] text-emerald-400 font-semibold truncate">
+                    Royal IMAX peak
                   </div>
                 </div>
 
-                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-5 space-y-2 relative overflow-hidden">
-                  <div className="text-xs font-mono text-slate-400 flex items-center justify-between">
-                    <span>ACTIVE HALLS</span>
-                    <span className="text-slate-500 font-bold">Screens</span>
+                <div className="bg-[#0b1120] border border-white/10 rounded-2xl p-3.5 sm:p-5 space-y-1 sm:space-y-2 relative overflow-hidden">
+                  <div className="text-[10px] sm:text-xs font-mono text-slate-400 flex items-center justify-between">
+                    <span className="truncate">ACTIVE HALLS</span>
+                    <span className="text-slate-500 font-bold shrink-0">Live</span>
                   </div>
-                  <div className="text-2xl font-black font-mono text-white">
+                  <div className="text-lg sm:text-2xl font-black font-mono text-white tracking-tight">
                     6 Halls / 24 Shows
                   </div>
-                  <div className="text-[11px] text-slate-400">
-                    All projection lasers nominal
+                  <div className="text-[10px] sm:text-[11px] text-slate-400 truncate">
+                    Lasers nominal
                   </div>
                 </div>
               </div>
 
-              {/* Recent Bookings Live Stream Table */}
-              <div className="bg-[#0a101d] border border-white/10 rounded-3xl p-5 sm:p-6 space-y-4">
+              {/* Recent Bookings Live Stream Section */}
+              <div className="bg-[#0a101d] border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/10 pb-4">
                   <div>
-                    <h2 className="text-lg font-bold font-heading text-white">Recent Box Office Admissions</h2>
+                    <h2 className="text-base sm:text-lg font-bold font-heading text-white">Recent Box Office Admissions</h2>
                     <p className="text-xs text-slate-400">Real-time ticket issuance & turnstile status</p>
                   </div>
                   <button
                     onClick={() => setActiveTab('bookings')}
-                    className="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1 cursor-pointer"
+                    className="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1 cursor-pointer self-start sm:self-auto"
                   >
                     <span>Open Scanner & Validator</span>
                     <span>&rarr;</span>
                   </button>
                 </div>
 
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs">
+                {/* Mobile View: Luxury Admission Cards (Readable, never squished) */}
+                <div className="block sm:hidden space-y-3">
+                  {bookingsList.map((bk) => (
+                    <div
+                      key={bk.id}
+                      className="bg-[#0c1220] border border-white/10 hover:border-amber-400/30 rounded-2xl p-3.5 space-y-2.5 shadow-lg transition-all"
+                    >
+                      {/* Top Row: Ref code + Status */}
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                          <span className="font-mono text-xs font-bold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded-md">
+                            {bk.reference}
+                          </span>
+                          <span className="text-[10px] text-slate-500 font-mono">{bk.bookedAt}</span>
+                        </div>
+                        {bk.status === 'checked-in' ? (
+                          <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                            <CheckCircle2 className="w-3 h-3" /> Checked In
+                          </span>
+                        ) : (
+                          <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                            Confirmed
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Movie & Theater */}
+                      <div>
+                        <h4 className="text-sm font-bold font-heading text-white">{bk.movieTitle}</h4>
+                        <div className="text-[11px] text-slate-400 flex items-center gap-1 mt-0.5">
+                          <MapPin className="w-3 h-3 text-amber-400 shrink-0" />
+                          <span className="truncate">{bk.theater}</span>
+                        </div>
+                      </div>
+
+                      {/* Details Box: Patron & Seats */}
+                      <div className="grid grid-cols-2 gap-2 text-xs bg-[#070b14] p-2.5 rounded-xl border border-white/5">
+                        <div>
+                          <span className="text-[9px] text-slate-500 font-mono uppercase tracking-wider block">PATRON</span>
+                          <div className="font-semibold text-slate-200 text-xs truncate">{bk.customerName}</div>
+                          <div className="text-[10px] text-slate-500 font-mono">{bk.customerPhone}</div>
+                        </div>
+                        <div>
+                          <span className="text-[9px] text-slate-500 font-mono uppercase tracking-wider block">SEATS ({bk.seats.length})</span>
+                          <div className="flex flex-wrap gap-1 mt-0.5">
+                            {bk.seats.map((s) => (
+                              <span
+                                key={s}
+                                className="bg-amber-500/15 text-amber-300 border border-amber-500/30 px-1.5 py-0.5 rounded text-[10px] font-mono font-bold"
+                              >
+                                {s}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Bottom Row: Amount & Action */}
+                      <div className="flex items-center justify-between pt-1">
+                        <div>
+                          <span className="text-[9px] text-slate-500 font-mono uppercase tracking-wider block">SETTLED AMOUNT</span>
+                          <div className="text-sm font-black font-mono text-white">
+                            Rs. {bk.totalPrice.toLocaleString()}{' '}
+                            <span className="text-[10px] text-slate-400 font-sans font-normal">({bk.paymentMethod})</span>
+                          </div>
+                        </div>
+
+                        {bk.status !== 'checked-in' ? (
+                          <button
+                            onClick={() => handleCheckInTicket(bk.reference)}
+                            className="btn-gold-luxury px-3.5 py-1.5 rounded-xl text-xs font-bold text-slate-950 flex items-center gap-1 cursor-pointer shadow-md shadow-amber-500/20 active:scale-95 transition-transform"
+                          >
+                            <CheckCircle2 className="w-3.5 h-3.5" />
+                            <span>Admit</span>
+                          </button>
+                        ) : (
+                          <span className="text-[11px] font-mono text-emerald-400 font-semibold flex items-center gap-1">
+                            <CheckCircle2 className="w-3.5 h-3.5" /> Admitted
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Desktop View: Full Spacious Table with Horizontal Scroll Safety */}
+                <div className="hidden sm:block overflow-x-auto">
+                  <table className="w-full text-left text-xs min-w-[760px]">
                     <thead>
                       <tr className="border-b border-white/10 text-slate-400 font-mono text-[11px]">
-                        <th className="pb-3 font-semibold">REFERENCE</th>
-                        <th className="pb-3 font-semibold">CUSTOMER</th>
-                        <th className="pb-3 font-semibold">MOVIE</th>
-                        <th className="pb-3 font-semibold">SEATS</th>
-                        <th className="pb-3 font-semibold">THEATER</th>
-                        <th className="pb-3 font-semibold">AMOUNT</th>
-                        <th className="pb-3 font-semibold">STATUS</th>
-                        <th className="pb-3 font-semibold text-right">ACTION</th>
+                        <th className="pb-3 px-2 font-semibold whitespace-nowrap">REFERENCE</th>
+                        <th className="pb-3 px-2 font-semibold">CUSTOMER</th>
+                        <th className="pb-3 px-2 font-semibold">MOVIE</th>
+                        <th className="pb-3 px-2 font-semibold whitespace-nowrap">SEATS</th>
+                        <th className="pb-3 px-2 font-semibold">THEATER</th>
+                        <th className="pb-3 px-2 font-semibold whitespace-nowrap">AMOUNT</th>
+                        <th className="pb-3 px-2 font-semibold whitespace-nowrap">STATUS</th>
+                        <th className="pb-3 px-2 font-semibold text-right whitespace-nowrap">ACTION</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-white/5">
                       {bookingsList.map((bk) => (
                         <tr key={bk.id} className="hover:bg-white/5 transition-colors">
-                          <td className="py-3 font-mono font-bold text-amber-400">{bk.reference}</td>
-                          <td className="py-3 text-white font-medium">
-                            <div>{bk.customerName}</div>
+                          <td className="py-3 px-2 font-mono font-bold text-amber-400 whitespace-nowrap">{bk.reference}</td>
+                          <td className="py-3 px-2 text-white font-medium">
+                            <div className="whitespace-nowrap">{bk.customerName}</div>
                             <div className="text-[10px] text-slate-500 font-mono">{bk.customerPhone}</div>
                           </td>
-                          <td className="py-3 text-slate-300 font-medium">{bk.movieTitle}</td>
-                          <td className="py-3 font-mono text-slate-200">
+                          <td className="py-3 px-2 text-slate-300 font-medium">{bk.movieTitle}</td>
+                          <td className="py-3 px-2 font-mono text-slate-200 whitespace-nowrap">
                             {bk.seats.map((s) => (
                               <span key={s} className="inline-block bg-white/10 px-1.5 py-0.5 rounded mr-1 text-[10px]">
                                 {s}
                               </span>
                             ))}
                           </td>
-                          <td className="py-3 text-slate-400 text-[11px]">{bk.theater}</td>
-                          <td className="py-3 font-mono font-bold text-white">Rs. {bk.totalPrice}</td>
-                          <td className="py-3">
+                          <td className="py-3 px-2 text-slate-400 text-[11px]">{bk.theater}</td>
+                          <td className="py-3 px-2 font-mono font-bold text-white whitespace-nowrap">Rs. {bk.totalPrice}</td>
+                          <td className="py-3 px-2 whitespace-nowrap">
                             {bk.status === 'checked-in' ? (
-                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
                                 <CheckCircle2 className="w-3 h-3" /> Checked In
                               </span>
                             ) : (
-                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-500/30">
                                 Confirmed
                               </span>
                             )}
                           </td>
-                          <td className="py-3 text-right">
+                          <td className="py-3 px-2 text-right whitespace-nowrap">
                             {bk.status !== 'checked-in' && (
                               <button
                                 onClick={() => handleCheckInTicket(bk.reference)}
-                                className="px-2.5 py-1 bg-amber-400 hover:bg-amber-300 text-slate-950 rounded-lg text-[10px] font-bold cursor-pointer"
+                                className="px-3 py-1 bg-amber-400 hover:bg-amber-300 text-slate-950 rounded-lg text-[10px] font-bold cursor-pointer"
                               >
                                 Admit
                               </button>
@@ -894,8 +980,40 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({ onExit }) => {
                 </div>
               </div>
 
-              <div className="bg-[#0b1120] border border-white/10 rounded-2xl overflow-hidden">
-                <table className="w-full text-left text-xs">
+              {/* Mobile View: Show Cards */}
+              <div className="block sm:hidden space-y-3">
+                {[
+                  { hall: 'Royal IMAX (Karachi)', movie: 'The Legend of Maula Jatt', time: '15:00 Today', format: 'IMAX Laser 3D', price: 'Rs. 1,600', status: 'Open (94% Sold)', statusType: 'open' },
+                  { hall: 'Royal IMAX (Karachi)', movie: 'The Legend of Maula Jatt', time: '18:15 Today', format: 'IMAX Laser 3D', price: 'Rs. 1,700', status: 'Sold Out', statusType: 'sold' },
+                  { hall: 'VIP Gold Lounge (Lahore)', movie: 'Kamli', time: '16:30 Today', format: 'VIP Gold Recliner', price: 'Rs. 1,400', status: 'Open (72% Sold)', statusType: 'open' },
+                  { hall: 'VIP Gold Lounge (Lahore)', movie: 'Kamli', time: '19:30 Today', format: 'VIP Gold Recliner', price: 'Rs. 1,500', status: 'Open (85% Sold)', statusType: 'open' },
+                  { hall: 'Centaurus Arena (Islamabad)', movie: 'London Nahi Jaunga', time: '18:00 Today', format: 'Dolby Atmos 4K', price: 'Rs. 1,300', status: 'Open (65% Sold)', statusType: 'open' },
+                  { hall: 'Centaurus Arena (Islamabad)', movie: 'London Nahi Jaunga', time: '21:00 Today', format: 'Dolby Atmos 4K', price: 'Rs. 1,400', status: 'Open (80% Sold)', statusType: 'open' }
+                ].map((s, idx) => (
+                  <div key={idx} className="bg-[#0c1220] border border-white/10 rounded-2xl p-4 space-y-2.5 shadow-lg">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-xs font-bold font-mono text-white">{s.hall}</span>
+                      <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold ${
+                        s.statusType === 'sold'
+                          ? 'bg-rose-500/15 text-rose-300 border border-rose-500/30'
+                          : 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30'
+                      }`}>
+                        {s.status}
+                      </span>
+                    </div>
+                    <div className="text-sm font-bold text-amber-300">{s.movie}</div>
+                    <div className="flex items-center justify-between text-xs font-mono pt-1 border-t border-white/5">
+                      <span className="text-emerald-400 font-bold">{s.time}</span>
+                      <span className="bg-white/5 px-2 py-0.5 rounded text-[11px] text-slate-300">{s.format}</span>
+                      <span className="text-white font-bold">{s.price}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Desktop View: Full Table */}
+              <div className="hidden sm:block bg-[#0b1120] border border-white/10 rounded-2xl overflow-x-auto">
+                <table className="w-full text-left text-xs min-w-[650px]">
                   <thead>
                     <tr className="border-b border-white/10 bg-white/5 text-slate-300 font-mono text-[11px]">
                       <th className="p-3.5 font-semibold">HALL / CITY</th>
