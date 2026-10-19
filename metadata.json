@@ -1,0 +1,6 @@
+{
+  "name": "CineVerse Pakistan - Cinema Management System",
+  "description": "Premier Pakistani cinema management & ticket booking platform featuring real-time seat selection, multi-screen hall management, show scheduling, and instant QR ticket verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

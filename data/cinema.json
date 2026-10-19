@@ -1,0 +1,2084 @@
+{
+  "movies": [
+    {
+      "id": "mov-maula-jatt",
+      "title": "The Legend of Maula Jatt",
+      "slug": "the-legend-of-maula-jatt",
+      "synopsis": "An epic tale of rivalry, honor, and raw vengeance. Maula Jatt, a fierce prizefighter with a tortured past, seeks vengeance against his mortal enemy Noori Natt, the fiercest warrior in the land of Punjab.",
+      "posterUrl": "/images/maula_jatt_hero.jpg",
+      "bannerUrl": "/images/maula_jatt_hero.jpg",
+      "genre": [
+        "Action",
+        "Drama",
+        "Period Epic"
+      ],
+      "durationMinutes": 153,
+      "language": "Punjabi / Urdu",
+      "subtitles": "English Subtitles",
+      "contentRating": "A",
+      "releaseDate": "2026-10-15",
+      "director": "Bilal Lashari",
+      "cast": [
+        "Fawad Khan",
+        "Mahira Khan",
+        "Hamza Ali Abbasi",
+        "Humaima Malick",
+        "Gohar Rasheed"
+      ],
+      "trailerUrl": "https://www.youtube.com/watch?v=sBWq_P7t7-U",
+      "status": "now-showing",
+      "isFeatured": true
+    },
+    {
+      "id": "mov-kamli",
+      "title": "Kamli",
+      "slug": "kamli",
+      "synopsis": "A poetic psychological drama exploring unspoken love, longing, and mystery in rural Punjab. Hina waits yearningly for her missing husband until a mysterious wanderer ignites dormant passions.",
+      "posterUrl": "/images/kamli_art.jpg",
+      "bannerUrl": "/images/kamli_art.jpg",
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Romance"
+      ],
+      "durationMinutes": 142,
+      "language": "Urdu",
+      "subtitles": "English Subtitles",
+      "contentRating": "U",
+      "releaseDate": "2026-10-12",
+      "director": "Sarmad Khoosat",
+      "cast": [
+        "Saba Qamar",
+        "Hamza Khawaja",
+        "Sania Saeed",
+        "Nimra Bucha"
+      ],
+      "status": "now-showing",
+      "isFeatured": false
+    },
+    {
+      "id": "mov-na-maloom-afraad",
+      "title": "Na Maloom Afraad 2",
+      "slug": "na-maloom-afraad-2",
+      "synopsis": "Farhan, Moon, and Shakeel reunite for another chaotic, high-stakes comedy adventure when an elusive Sheikh's gold toilet goes missing during an extravagant destination wedding in Dubai.",
+      "posterUrl": "/images/na_maloom_poster.jpg",
+      "bannerUrl": "/images/na_maloom_poster.jpg",
+      "genre": [
+        "Comedy",
+        "Action",
+        "Crime"
+      ],
+      "durationMinutes": 138,
+      "language": "Urdu",
+      "subtitles": "English Subtitles",
+      "contentRating": "PG-13",
+      "releaseDate": "2026-10-24",
+      "director": "Nabeel Qureshi",
+      "cast": [
+        "Fahad Mustafa",
+        "Javed Sheikh",
+        "Mohsin Abbas Haider",
+        "Hania Aamir"
+      ],
+      "status": "now-showing",
+      "isFeatured": false
+    },
+    {
+      "id": "mov-jpna-2",
+      "title": "Jawani Phir Nahi Ani 2",
+      "slug": "jawani-phir-nahi-ani-2",
+      "synopsis": "The ultimate festive Pakistani comedy romance adventure. Sherry and his friends travel to Turkey for another hilarious rollercoaster ride of love, misunderstandings, and high society chaos.",
+      "posterUrl": "/images/jpna_poster.jpg",
+      "bannerUrl": "/images/jpna_poster.jpg",
+      "genre": [
+        "Comedy",
+        "Romance",
+        "Adventure"
+      ],
+      "durationMinutes": 160,
+      "language": "Urdu",
+      "subtitles": "English Subtitles",
+      "contentRating": "U",
+      "releaseDate": "2026-10-18",
+      "director": "Nadeem Baig",
+      "cast": [
+        "Humayun Saeed",
+        "Fahad Mustafa",
+        "Ahmed Ali Butt",
+        "Vasay Chaudhry",
+        "Mawra Hocane",
+        "Kubra Khan"
+      ],
+      "status": "now-showing",
+      "isFeatured": false
+    },
+    {
+      "id": "mov-parwaaz",
+      "title": "Parwaaz Hai Junoon",
+      "slug": "parwaaz-hai-junoon",
+      "synopsis": "A heartfelt tribute to the Pakistan Air Force, depicting the lives, cadets training, high-octane aerial dogfights, patriotism, and emotional sacrifices of courageous fighter pilots.",
+      "posterUrl": "/images/parwaaz_poster.jpg",
+      "bannerUrl": "/images/parwaaz_poster.jpg",
+      "genre": [
+        "Action",
+        "Drama",
+        "Military"
+      ],
+      "durationMinutes": 130,
+      "language": "Urdu",
+      "subtitles": "English Subtitles",
+      "contentRating": "U",
+      "releaseDate": "2026-11-05",
+      "director": "Haseeb Hassan",
+      "cast": [
+        "Hamza Ali Abbasi",
+        "Hania Aamir",
+        "Ahad Raza Mir",
+        "Shaz Khan"
+      ],
+      "status": "upcoming",
+      "isFeatured": false
+    },
+    {
+      "id": "mov-london",
+      "title": "London Nahi Jaunga",
+      "slug": "london-nahi-jaunga",
+      "synopsis": "A grand romantic comedy drama that spans from rustic Punjab villages to the bustling cityscapes of London. Jameel travels all the way to London to win back the woman he loves against family traditions.",
+      "posterUrl": "/images/london_poster.jpg",
+      "bannerUrl": "/images/london_poster.jpg",
+      "genre": [
+        "Romance",
+        "Comedy",
+        "Drama"
+      ],
+      "durationMinutes": 155,
+      "language": "Urdu",
+      "subtitles": "English Subtitles",
+      "contentRating": "PG-13",
+      "releaseDate": "2026-11-12",
+      "director": "Nadeem Baig",
+      "cast": [
+        "Humayun Saeed",
+        "Mehwish Hayat",
+        "Kubra Khan",
+        "Sohail Ahmed",
+        "Gohar Rasheed"
+      ],
+      "status": "upcoming",
+      "isFeatured": false
+    },
+    {
+      "id": "mov-dune-2",
+      "title": "Dune: Part Two",
+      "slug": "dune-part-two",
+      "synopsis": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between love and the fate of the universe, he prevents a terrible future only he can foresee.",
+      "posterUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1920&q=80",
+      "genre": [
+        "Sci-Fi",
+        "Adventure",
+        "Action"
+      ],
+      "durationMinutes": 166,
+      "language": "English",
+      "subtitles": "Urdu Subtitles",
+      "contentRating": "PG-13",
+      "releaseDate": "2026-10-10",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Josh Brolin",
+        "Austin Butler"
+      ],
+      "status": "now-showing",
+      "isFeatured": false
+    },
+    {
+      "id": "mov-oppenheimer",
+      "title": "Oppenheimer",
+      "slug": "oppenheimer",
+      "synopsis": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb, followed by the political persecution and moral turbulence of the atomic age.",
+      "posterUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "durationMinutes": 180,
+      "language": "English",
+      "subtitles": "Urdu Subtitles",
+      "contentRating": "A",
+      "releaseDate": "2026-10-08",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr.",
+        "Florence Pugh"
+      ],
+      "status": "now-showing",
+      "isFeatured": false
+    }
+  ],
+  "screens": [
+    {
+      "id": "scr-karachi-imax",
+      "name": "Screen 1 - Royal IMAX Karachi",
+      "location": "Karachi - Clifton Waterfront",
+      "format": "IMAX 3D",
+      "rows": 6,
+      "seatsPerRow": 10,
+      "capacity": 60,
+      "status": "active",
+      "seatLayout": [
+        {
+          "id": "A-1",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-2",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-3",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-4",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-5",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-6",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-7",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-8",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-9",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-10",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "A",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-1",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-2",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-3",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-4",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-5",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-6",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-7",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-8",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-9",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-10",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "B",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-1",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-2",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-3",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-4",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-5",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-6",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-7",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-8",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-9",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-10",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "C",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "D-1",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 1,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-2",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 2,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-3",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 3,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-4",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 4,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-5",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-6",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-7",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 7,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-8",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 8,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-9",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 9,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-10",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "D",
+          "seatNumber": 10,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-1",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 1,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-2",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 2,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-3",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 3,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-4",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 4,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-5",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-6",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-7",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 7,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-8",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 8,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-9",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 9,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-10",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "E",
+          "seatNumber": 10,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "F-1",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 1,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-2",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 2,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-3",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 3,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-4",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 4,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-5",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 5,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-6",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 6,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-7",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 7,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-8",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 8,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-9",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 9,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "F-10",
+          "screenId": "scr-karachi-imax",
+          "rowLabel": "F",
+          "seatNumber": 10,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        }
+      ]
+    },
+    {
+      "id": "scr-lahore-gold",
+      "name": "Screen 2 - VIP Gold Lounge Lahore",
+      "location": "Lahore - Gulberg Heights",
+      "format": "VIP Lounge",
+      "rows": 5,
+      "seatsPerRow": 10,
+      "capacity": 50,
+      "status": "active",
+      "seatLayout": [
+        {
+          "id": "A-1",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-2",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-3",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-4",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-5",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-6",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-7",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-8",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-9",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-10",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "A",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-1",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-2",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-3",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-4",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-5",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-6",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-7",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-8",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-9",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-10",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "B",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-1",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 1,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-2",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 2,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-3",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 3,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-4",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 4,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-5",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-6",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-7",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 7,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-8",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 8,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-9",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 9,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-10",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "C",
+          "seatNumber": 10,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-1",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 1,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-2",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 2,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-3",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 3,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-4",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 4,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-5",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-6",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-7",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 7,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-8",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 8,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-9",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 9,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-10",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "D",
+          "seatNumber": 10,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-1",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 1,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-2",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 2,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-3",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 3,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-4",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 4,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-5",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 5,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-6",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 6,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-7",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 7,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-8",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 8,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-9",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 9,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-10",
+          "screenId": "scr-lahore-gold",
+          "rowLabel": "E",
+          "seatNumber": 10,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        }
+      ]
+    },
+    {
+      "id": "scr-islamabad-atmos",
+      "name": "Screen 3 - Centaurus Arena Islamabad",
+      "location": "Islamabad - Centaurus Mall",
+      "format": "Dolby Atmos",
+      "rows": 5,
+      "seatsPerRow": 10,
+      "capacity": 50,
+      "status": "active",
+      "seatLayout": [
+        {
+          "id": "A-1",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-2",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-3",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-4",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-5",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-6",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-7",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-8",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-9",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "A-10",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "A",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-1",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 1,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-2",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 2,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-3",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 3,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-4",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 4,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-5",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 5,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-6",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 6,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-7",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 7,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-8",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 8,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-9",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 9,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "B-10",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "B",
+          "seatNumber": 10,
+          "seatType": "standard",
+          "isActive": true,
+          "priceModifier": 0
+        },
+        {
+          "id": "C-1",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 1,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-2",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 2,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-3",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 3,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-4",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 4,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-5",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-6",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-7",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 7,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-8",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 8,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-9",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 9,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "C-10",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "C",
+          "seatNumber": 10,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-1",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 1,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-2",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 2,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-3",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 3,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-4",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 4,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-5",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-6",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-7",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 7,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-8",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 8,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-9",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 9,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "D-10",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "D",
+          "seatNumber": 10,
+          "seatType": "premium",
+          "isActive": true,
+          "priceModifier": 350
+        },
+        {
+          "id": "E-1",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 1,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-2",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 2,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-3",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 3,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-4",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 4,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-5",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 5,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-6",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 6,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-7",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 7,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-8",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 8,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-9",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 9,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        },
+        {
+          "id": "E-10",
+          "screenId": "scr-islamabad-atmos",
+          "rowLabel": "E",
+          "seatNumber": 10,
+          "seatType": "vip",
+          "isActive": true,
+          "priceModifier": 700
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "show-karachi-0-1",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-19T08:30:00.000Z",
+      "endTime": "2026-10-19T11:03:00.000Z",
+      "basePrice": 1200,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-0-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-19T15:30:00.000Z",
+      "endTime": "2026-10-19T18:16:00.000Z",
+      "basePrice": 1800,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-0-1",
+      "movieId": "mov-oppenheimer",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-19T12:00:00.000Z",
+      "endTime": "2026-10-19T15:00:00.000Z",
+      "basePrice": 1500,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-0-2",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-19T15:30:00.000Z",
+      "endTime": "2026-10-19T18:03:00.000Z",
+      "basePrice": 1600,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-0-1",
+      "movieId": "mov-kamli",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-19T10:00:00.000Z",
+      "endTime": "2026-10-19T12:22:00.000Z",
+      "basePrice": 1100,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-0-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-19T14:30:00.000Z",
+      "endTime": "2026-10-19T17:16:00.000Z",
+      "basePrice": 1350,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-1-1",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-20T08:30:00.000Z",
+      "endTime": "2026-10-20T11:03:00.000Z",
+      "basePrice": 1200,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-1-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-20T15:30:00.000Z",
+      "endTime": "2026-10-20T18:16:00.000Z",
+      "basePrice": 1800,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-1-1",
+      "movieId": "mov-oppenheimer",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-20T12:00:00.000Z",
+      "endTime": "2026-10-20T15:00:00.000Z",
+      "basePrice": 1500,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-1-2",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-20T15:30:00.000Z",
+      "endTime": "2026-10-20T18:03:00.000Z",
+      "basePrice": 1600,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-1-1",
+      "movieId": "mov-kamli",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-20T10:00:00.000Z",
+      "endTime": "2026-10-20T12:22:00.000Z",
+      "basePrice": 1100,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-1-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-20T14:30:00.000Z",
+      "endTime": "2026-10-20T17:16:00.000Z",
+      "basePrice": 1350,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-2-1",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-21T08:30:00.000Z",
+      "endTime": "2026-10-21T11:03:00.000Z",
+      "basePrice": 1200,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-2-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-21T15:30:00.000Z",
+      "endTime": "2026-10-21T18:16:00.000Z",
+      "basePrice": 1800,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-2-1",
+      "movieId": "mov-oppenheimer",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-21T12:00:00.000Z",
+      "endTime": "2026-10-21T15:00:00.000Z",
+      "basePrice": 1500,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-2-2",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-21T15:30:00.000Z",
+      "endTime": "2026-10-21T18:03:00.000Z",
+      "basePrice": 1600,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-2-1",
+      "movieId": "mov-kamli",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-21T10:00:00.000Z",
+      "endTime": "2026-10-21T12:22:00.000Z",
+      "basePrice": 1100,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-2-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-21T14:30:00.000Z",
+      "endTime": "2026-10-21T17:16:00.000Z",
+      "basePrice": 1350,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-3-1",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-22T08:30:00.000Z",
+      "endTime": "2026-10-22T11:03:00.000Z",
+      "basePrice": 1200,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-3-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-22T15:30:00.000Z",
+      "endTime": "2026-10-22T18:16:00.000Z",
+      "basePrice": 1800,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-3-1",
+      "movieId": "mov-oppenheimer",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-22T12:00:00.000Z",
+      "endTime": "2026-10-22T15:00:00.000Z",
+      "basePrice": 1500,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-3-2",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-22T15:30:00.000Z",
+      "endTime": "2026-10-22T18:03:00.000Z",
+      "basePrice": 1600,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-3-1",
+      "movieId": "mov-kamli",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-22T10:00:00.000Z",
+      "endTime": "2026-10-22T12:22:00.000Z",
+      "basePrice": 1100,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-3-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-22T14:30:00.000Z",
+      "endTime": "2026-10-22T17:16:00.000Z",
+      "basePrice": 1350,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-4-1",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-23T08:30:00.000Z",
+      "endTime": "2026-10-23T11:03:00.000Z",
+      "basePrice": 1200,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-karachi-4-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-karachi-imax",
+      "startTime": "2026-10-23T15:30:00.000Z",
+      "endTime": "2026-10-23T18:16:00.000Z",
+      "basePrice": 1800,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-4-1",
+      "movieId": "mov-oppenheimer",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-23T12:00:00.000Z",
+      "endTime": "2026-10-23T15:00:00.000Z",
+      "basePrice": 1500,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-lahore-4-2",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-lahore-gold",
+      "startTime": "2026-10-23T15:30:00.000Z",
+      "endTime": "2026-10-23T18:03:00.000Z",
+      "basePrice": 1600,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-4-1",
+      "movieId": "mov-kamli",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-23T10:00:00.000Z",
+      "endTime": "2026-10-23T12:22:00.000Z",
+      "basePrice": 1100,
+      "status": "scheduled"
+    },
+    {
+      "id": "show-isb-4-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-islamabad-atmos",
+      "startTime": "2026-10-23T14:30:00.000Z",
+      "endTime": "2026-10-23T17:16:00.000Z",
+      "basePrice": 1350,
+      "status": "scheduled"
+    }
+  ],
+  "holds": [],
+  "bookings": [
+    {
+      "id": "bkg-demo-1",
+      "bookingReference": "CVP-PK-7842",
+      "showId": "show-karachi-0-1",
+      "movieId": "mov-maula-jatt",
+      "screenId": "scr-karachi-imax",
+      "seats": [
+        {
+          "seatId": "D-5",
+          "rowLabel": "D",
+          "seatNumber": 5,
+          "seatType": "premium",
+          "price": 1550
+        },
+        {
+          "seatId": "D-6",
+          "rowLabel": "D",
+          "seatNumber": 6,
+          "seatType": "premium",
+          "price": 1550
+        }
+      ],
+      "subtotal": 3100,
+      "fee": 100,
+      "total": 3200,
+      "customerName": "Hamza Tariq",
+      "customerEmail": "hamza.tariq@gmail.com",
+      "customerPhone": "03001234567",
+      "city": "Karachi",
+      "paymentMethod": "jazzcash",
+      "paymentStatus": "paid",
+      "status": "confirmed",
+      "verificationToken": "c7f9e8a1b2c3d4e5f601",
+      "createdAt": "2026-10-19T04:18:21.645Z"
+    },
+    {
+      "id": "bkg-demo-2",
+      "bookingReference": "CVP-PK-9124",
+      "showId": "show-karachi-0-2",
+      "movieId": "mov-dune-2",
+      "screenId": "scr-karachi-imax",
+      "seats": [
+        {
+          "seatId": "F-4",
+          "rowLabel": "F",
+          "seatNumber": 4,
+          "seatType": "vip",
+          "price": 2500
+        },
+        {
+          "seatId": "F-5",
+          "rowLabel": "F",
+          "seatNumber": 5,
+          "seatType": "vip",
+          "price": 2500
+        }
+      ],
+      "subtotal": 5000,
+      "fee": 100,
+      "total": 5100,
+      "customerName": "Ayesha Malik",
+      "customerEmail": "ayesha.m@yahoo.com",
+      "customerPhone": "03219876543",
+      "city": "Karachi",
+      "paymentMethod": "easypaisa",
+      "paymentStatus": "paid",
+      "status": "checked-in",
+      "checkedInAt": "2026-10-19T08:18:21.645Z",
+      "verificationToken": "a1b2c3d4e5f678901234",
+      "createdAt": "2026-10-19T00:18:21.645Z"
+    }
+  ],
+  "settings": {
+    "cinemaName": "CineVerse Pakistan",
+    "brandTagline": "Pakistan's Premier Luxury Cinema & Entertainment Destination",
+    "currency": "PKR",
+    "currencySymbol": "Rs.",
+    "timezone": "Asia/Karachi",
+    "contactEmail": "boxoffice@cineverse.pk",
+    "contactPhone": "+92 (21) 111-246-382",
+    "locations": [
+      "Karachi - Clifton Waterfront",
+      "Lahore - Gulberg Heights",
+      "Islamabad - Centaurus Mall"
+    ],
+    "holdDurationMinutes": 5,
+    "turnaroundBufferMinutes": 30,
+    "bookingCutoffMinutes": 15,
+    "convenienceFeePerTicket": 50,
+    "allowCancellationHoursBeforeShow": 3
+  },
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-19T08:18:21.645Z",
+      "adminEmail": "admin@cineverse.pk",
+      "action": "SYSTEM_INITIALIZED",
+      "details": "CineVerse Pakistan Cinema Management System successfully seeded and started."
+    }
+  ],
+  "admin": {
+    "email": "admin@cineverse.pk",
+    "passwordHash": "c0227892c7018fdfe51be6ed9b9eb62ef38e3eb26db8560e08737309b5b4023b2ab7bf9d249bb0efd25b7dded66e0d5fa82aacd376280a7daa1237b58e0484f4",
+    "salt": "92dbf99f8ef7b0312e44953af7446e34"
+  }
+}

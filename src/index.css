@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --color-obsidian: #05070c;
+    --color-charcoal: #0c111d;
+    --color-gold: #d4af37;
+    --color-amber: #f59e0b;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #05070c;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #05070c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2638;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Dark Skeleton Shimmer with Luxury Amber Glint */
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton-shimmer {
+  position: relative;
+  overflow: hidden;
+  background-color: #0b1120;
+}
+
+.skeleton-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(212, 175, 55, 0.09) 50%,
+    rgba(255, 255, 255, 0.03) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: shimmerSweep 1.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+/* Luxury Glassmorphism & Borders */
+.glass-panel {
+  background: rgba(12, 17, 29, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+}
+
+.glass-panel-gold {
+  background: rgba(12, 17, 29, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.8), 0 0 25px -5px rgba(212, 175, 55, 0.2);
+}
+
+/* Screenshot Exact: Glossy Amber/Gold Glass Pill Button for "BOOK TICKETS" */
+.btn-gold-glass {
+  background: linear-gradient(180deg, rgba(180, 130, 20, 0.35) 0%, rgba(60, 40, 10, 0.7) 100%);
+  border: 2px solid #eab308;
+  border-radius: 9999px;
+  color: #fef08a;
+  box-shadow: 0 0 25px rgba(234, 179, 8, 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-shadow: 0 0 12px rgba(234, 179, 8, 0.5);
+}
+
+.btn-gold-glass:hover {
+  background: linear-gradient(180deg, rgba(210, 155, 25, 0.5) 0%, rgba(90, 60, 15, 0.8) 100%);
+  border-color: #fde047;
+  color: #ffffff;
+  box-shadow: 0 0 35px rgba(250, 204, 21, 0.6), inset 0 1px 3px rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px) scale(1.02);
+}
+
+.btn-gold-glass:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Screenshot Exact: Brushed Metallic Pill Button for "View Showtimes & Details" */
+.btn-brushed-metal {
+  background: linear-gradient(90deg, #4b5563 0%, #7d8b9e 30%, #9aa6b8 50%, #7d8b9e 70%, #4b5563 100%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 9999px;
+  color: #0f172a;
+  font-weight: 700;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5), 0 4px 15px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-brushed-metal:hover {
+  background: linear-gradient(90deg, #5b6677 0%, #8f9db1 30%, #b0bccf 50%, #8f9db1 70%, #5b6677 100%);
+  border-color: rgba(255, 255, 255, 0.55);
+  color: #020617;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.7), 0 6px 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-1px);
+}
+
+.btn-brushed-metal:active {
+  transform: translateY(1px);
+}
+
+/* Screenshot Exact: Arched Glassy Tab for "Movies" */
+.glass-tab-active {
+  position: relative;
+  background: linear-gradient(180deg, rgba(65, 50, 25, 0.85) 0%, rgba(30, 22, 12, 0.5) 75%, transparent 100%);
+  border-top: 2px solid #f59e0b;
+  border-left: 1px solid rgba(245, 158, 11, 0.3);
+  border-right: 1px solid rgba(245, 158, 11, 0.3);
+  color: #fde68a;
+  box-shadow: 0 -4px 15px rgba(245, 158, 11, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+/* Screenshot Exact: Brushed Beveled Location Pill */
+.glass-pill-location {
+  background: linear-gradient(180deg, #2b3240 0%, #151a24 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3), 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 9999px;
+}
+
+/* Screenshot Exact: Embossed 3D Gold Ticket Button */
+.btn-gold-ticket-embossed {
+  background: linear-gradient(180deg, #f0cf6f 0%, #c49626 50%, #8f6c12 100%);
+  border: 1px solid #ffe899;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.8), 0 4px 15px rgba(196, 150, 38, 0.45);
+  border-radius: 0.75rem;
+}
+
+/* Screenshot Exact: Glowing Gold Card Active State */
+.card-gold-glow {
+  border: 2px solid #facc15 !important;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.55), 0 0 40px rgba(245, 158, 11, 0.25) !important;
+  background: rgba(250, 204, 21, 0.08) !important;
+}
+
+/* Luxury Metallic Gold Button */
+.btn-gold-luxury {
+  background: linear-gradient(135deg, #fce082 0%, #d4af37 50%, #b48608 100%);
+  color: #05070c;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-gold-luxury:hover {
+  background: linear-gradient(135deg, #ffea9f 0%, #e6be44 50%, #c5950e 100%);
+  box-shadow: 0 6px 28px rgba(212, 175, 55, 0.45);
+  transform: translateY(-1px) scale(1.01);
+}
+
+.btn-gold-luxury:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* Gold Gradient Text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fce082 0%, #d4af37 50%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Cinema screen glow */
+.cinema-screen-glow {
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.35) 0%, rgba(212, 175, 55, 0.05) 50%, transparent 100%);
+  filter: blur(12px);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
