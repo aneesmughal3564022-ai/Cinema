@@ -187,7 +187,9 @@ export const INITIAL_MOVIES: Movie[] = [
     cast: ['Hamza Ali Abbasi', 'Hania Aamir', 'Ahad Raza Mir', 'Shaz Khan'],
     status: 'upcoming',
     isFeatured: false,
-    formats: ['IMAX Laser 3D', 'Dolby Atmos']
+    showtimes: ['14:00', '17:15', '20:30'],
+    formats: ['IMAX Laser 3D', 'Dolby Atmos'],
+    startingPrice: 1100
   },
   {
     id: 'mov-london',
@@ -204,8 +206,10 @@ export const INITIAL_MOVIES: Movie[] = [
     releaseDate: 'Nov 12, 2026',
     director: 'Nadeem Baig',
     cast: ['Humayun Saeed', 'Mehwish Hayat', 'Kubra Khan', 'Sohail Ahmed', 'Gohar Rasheed'],
-    status: 'upcoming',
-    isFeatured: false,
-    formats: ['Dolby Atmos', 'VIP Gold Lounge']
+    status: 'now-showing',
+    isFeatured: true,
+    showtimes: ['13:30', '16:45', '20:00', '23:00'],
+    formats: ['Dolby Atmos', 'VIP Gold Lounge', 'Royal Laser'],
+    startingPrice: 1200
   }
 ];

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Movie, CityName } from '../types/cinema';
 import { SafeImage } from './SafeImage';
-import { Search, Filter } from 'lucide-react';
+import { Search, Filter, Clock } from 'lucide-react';
 
 interface MovieCatalogProps {
   movies: Movie[];
@@ -12,7 +12,7 @@ interface MovieCatalogProps {
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   selectedCity: CityName;
-  onOpenBooking: (movie: Movie) => void;
+  onOpenBooking: (movie: Movie, preselectedTime?: string) => void;
   onSelectMovie: (movie: Movie) => void;
 }
 
@@ -193,6 +193,35 @@ export const MovieCatalog: React.FC<MovieCatalogProps> = ({
                     {movie.synopsis}
                   </p>
                 </div>
+
+                {/* Cinema Daily Showtimes Pills */}
+                {movie.showtimes && movie.showtimes.length > 0 && (
+                  <div className="pt-2 border-t border-white/5 space-y-1.5">
+                    <div className="flex items-center justify-between text-[10px] font-mono">
+                      <span className="flex items-center gap-1 text-amber-400 font-bold">
+                        <Clock className="w-3 h-3 text-amber-400" />
+                        Today's Showtimes:
+                      </span>
+                      <span className="text-slate-400 font-bold">From Rs. {movie.startingPrice || 1200}</span>
+                    </div>
+                    <div className="flex flex-wrap gap-1">
+                      {movie.showtimes.map((time) => (
+                        <button
+                          key={time}
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onOpenBooking(movie, time);
+                          }}
+                          className="px-2 py-0.5 rounded-md text-[10px] sm:text-[11px] font-mono font-bold bg-[#131b2e] hover:bg-amber-400 hover:text-slate-950 text-amber-300 border border-amber-500/30 transition-all cursor-pointer shadow-sm active:scale-95"
+                          title={`Book ${movie.title} at ${time}`}
+                        >
+                          {time}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 <div className="pt-2 sm:pt-3 border-t border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3">
                   <div className="text-[10px] sm:text-xs font-mono">

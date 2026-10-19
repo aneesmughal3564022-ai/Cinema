@@ -10,6 +10,7 @@ import { MovieDetailsModal } from './components/MovieDetailsModal';
 import { TicketLookupModal } from './components/TicketLookupModal';
 import { CinemaFooter } from './components/CinemaFooter';
 import { AdminPortal } from './components/AdminPortal';
+import { ShowtimesSchedule } from './components/ShowtimesSchedule';
 
 export const App: React.FC = () => {
   const [currentHash, setCurrentHash] = useState<string>(() => window.location.hash || '#/');
@@ -30,7 +31,7 @@ export const App: React.FC = () => {
   }, []);
 
   // Modals state
-  const [bookingMovie, setBookingMovie] = useState<Movie | null>(null);
+  const [bookingData, setBookingData] = useState<{ movie: Movie; initialTime?: string } | null>(null);
   const [detailsMovie, setDetailsMovie] = useState<Movie | null>(null);
   const [isTicketLookupOpen, setIsTicketLookupOpen] = useState<boolean>(false);
   const [isPolicyOpen, setIsPolicyOpen] = useState<boolean>(false);
@@ -57,9 +58,16 @@ export const App: React.FC = () => {
     setRecentTickets([ticket, ...recentTickets]);
   };
 
+  const handleOpenBooking = (movie: Movie, initialTime?: string) => {
+    setBookingData({ movie, initialTime });
+  };
+
   const handleNavigateTab = (tab: string) => {
     setActiveNavTab(tab);
-    if (tab === 'showtimes' || tab === 'movies') {
+    if (tab === 'showtimes') {
+      const showtimesEl = document.getElementById('showtimes-schedule');
+      showtimesEl?.scrollIntoView({ behavior: 'smooth' });
+    } else if (tab === 'movies') {
       const catalogEl = document.getElementById('movies-catalog');
       catalogEl?.scrollIntoView({ behavior: 'smooth' });
     } else if (tab === 'experience') {
@@ -102,7 +110,7 @@ export const App: React.FC = () => {
           upcomingMovies={upcomingMovies}
           selectedCity={selectedCity}
           onSelectMovie={(movie) => setActiveHeroMovie(movie)}
-          onOpenBooking={(movie) => setBookingMovie(movie)}
+          onOpenBooking={handleOpenBooking}
           onOpenDetails={(movie) => setDetailsMovie(movie)}
         />
 
@@ -110,6 +118,17 @@ export const App: React.FC = () => {
         <FeatureCards
           onOpenExperience={() => setIsPolicyOpen(true)}
           onOpenPolicy={() => setIsPolicyOpen(true)}
+        />
+
+        {/* Dedicated Live Showtimes & Timings Schedule */}
+        <ShowtimesSchedule
+          movies={movies}
+          selectedCity={selectedCity}
+          onOpenBooking={handleOpenBooking}
+          onSelectMovie={(movie) => {
+            setActiveHeroMovie(movie);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
         />
 
         {/* Comprehensive Pakistani Cinema Catalog */}
@@ -122,7 +141,7 @@ export const App: React.FC = () => {
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           selectedCity={selectedCity}
-          onOpenBooking={(movie) => setBookingMovie(movie)}
+          onOpenBooking={handleOpenBooking}
           onSelectMovie={(movie) => {
             setActiveHeroMovie(movie);
             window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -137,11 +156,12 @@ export const App: React.FC = () => {
       />
 
       {/* Booking & Seat Selection Modal */}
-      {bookingMovie && (
+      {bookingData && (
         <BookingModal
-          movie={bookingMovie}
+          movie={bookingData.movie}
+          initialTime={bookingData.initialTime}
           selectedCity={selectedCity}
-          onClose={() => setBookingMovie(null)}
+          onClose={() => setBookingData(null)}
           onTicketGenerated={handleTicketGenerated}
         />
       )}
@@ -152,7 +172,7 @@ export const App: React.FC = () => {
           movie={detailsMovie}
           selectedCity={selectedCity}
           onClose={() => setDetailsMovie(null)}
-          onBookNow={(movie) => setBookingMovie(movie)}
+          onBookNow={(movie) => handleOpenBooking(movie)}
         />
       )}
 

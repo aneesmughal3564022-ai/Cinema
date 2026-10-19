@@ -1,7 +1,7 @@
 import React from 'react';
 import { Movie, CityName } from '../types/cinema';
 import { SafeImage } from './SafeImage';
-import { Ticket } from 'lucide-react';
+import { Ticket, Clock } from 'lucide-react';
 
 interface HeroSectionProps {
   activeMovie: Movie;
@@ -9,7 +9,7 @@ interface HeroSectionProps {
   upcomingMovies: Movie[];
   selectedCity: CityName;
   onSelectMovie: (movie: Movie) => void;
-  onOpenBooking: (movie: Movie) => void;
+  onOpenBooking: (movie: Movie, preselectedTime?: string) => void;
   onOpenDetails: (movie: Movie) => void;
 }
 
@@ -95,8 +95,29 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="text-slate-200 font-semibold">Cast:</span> {activeMovie.cast.slice(0, 3).join(', ')}
             </div>
 
+            {/* Daily Cinema Showtimes Pills for Active Hero Movie */}
+            {activeMovie.showtimes && activeMovie.showtimes.length > 0 && (
+              <div className="pt-2 sm:pt-3 flex flex-wrap items-center gap-2">
+                <span className="text-[11px] sm:text-xs font-mono font-bold text-amber-400 flex items-center gap-1.5 bg-amber-500/10 border border-amber-500/30 px-2.5 py-1 rounded-lg">
+                  <Clock className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Today in {selectedCity}:</span>
+                </span>
+                {activeMovie.showtimes.map((time) => (
+                  <button
+                    key={time}
+                    type="button"
+                    onClick={() => onOpenBooking(activeMovie, time)}
+                    className="px-3 py-1 rounded-lg text-xs font-mono font-bold bg-[#111726]/90 hover:bg-amber-400 hover:text-slate-950 text-white border border-white/20 hover:border-amber-400 transition-all cursor-pointer shadow-md active:scale-95"
+                    title={`Book ${activeMovie.title} at ${time}`}
+                  >
+                    {time}
+                  </button>
+                ))}
+              </div>
+            )}
+
             {/* Action Buttons Row matching Screenshot */}
-            <div className="pt-3 sm:pt-6 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
+            <div className="pt-3 sm:pt-5 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
               
               {/* Button 1: Glowing Gold Glass Pill Button for "BOOK TICKETS" */}
               <button

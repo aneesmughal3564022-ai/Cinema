@@ -6,6 +6,7 @@ import { X, Check, Clock, Calendar, QrCode } from 'lucide-react';
 interface BookingModalProps {
   movie: Movie;
   selectedCity: CityName;
+  initialTime?: string;
   onClose: () => void;
   onTicketGenerated: (ticket: BookingTicket) => void;
 }
@@ -13,12 +14,13 @@ interface BookingModalProps {
 export const BookingModal: React.FC<BookingModalProps> = ({
   movie,
   selectedCity,
+  initialTime,
   onClose,
   onTicketGenerated
 }) => {
   const [step, setStep] = useState<'time' | 'seats' | 'checkout' | 'success'>('time');
   const [selectedDate, setSelectedDate] = useState('Today');
-  const [selectedTime, setSelectedTime] = useState(movie.showtimes?.[0] || '18:00');
+  const [selectedTime, setSelectedTime] = useState(initialTime || movie.showtimes?.[0] || '18:00');
   const [selectedFormat, setSelectedFormat] = useState(movie.formats?.[0] || 'IMAX Dual Laser 3D');
   const [selectedSeats, setSelectedSeats] = useState<string[]>(['D-5', 'D-6']);
   const [customerName, setCustomerName] = useState('Hamza Tariq');
