@@ -69,30 +69,30 @@ export const BookingModal: React.FC<BookingModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-fadeIn">
-      <div className="relative w-full max-w-2xl bg-[#0c121d] border border-white/10 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/85 backdrop-blur-md animate-fadeIn">
+      <div className="relative w-full max-w-2xl bg-[#0c121d] border border-white/10 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[95vh] sm:max-h-[90vh]">
         
         {/* Modal Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-white/10 bg-[#080d16]">
-          <div className="flex items-center gap-3">
-            <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
-            <div>
-              <h2 className="text-base font-bold font-heading text-white">{movie.title}</h2>
-              <p className="text-[11px] font-mono text-amber-400">
+        <div className="flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b border-white/10 bg-[#080d16]">
+          <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <span className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-amber-400 animate-pulse shrink-0" />
+            <div className="truncate">
+              <h2 className="text-sm sm:text-base font-bold font-heading text-white truncate">{movie.title}</h2>
+              <p className="text-[10px] sm:text-[11px] font-mono text-amber-400 truncate">
                 {cinema.name} &middot; {selectedCity}
               </p>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
+            className="p-1.5 sm:p-2 rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer shrink-0"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Stepper Indicator */}
-        <div className="grid grid-cols-3 border-b border-white/5 text-center text-xs font-mono font-semibold py-2.5 bg-[#090e18]">
+        <div className="grid grid-cols-3 border-b border-white/5 text-center text-[11px] sm:text-xs font-mono font-semibold py-2 sm:py-2.5 bg-[#090e18]">
           <span className={step === 'time' ? 'text-amber-400 font-bold' : 'text-slate-500'}>
             1. Showtime
           </span>
@@ -105,7 +105,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
         </div>
 
         {/* Modal Body Content */}
-        <div className="p-6 overflow-y-auto space-y-6 flex-1">
+        <div className="p-4 sm:p-6 overflow-y-auto space-y-4 sm:space-y-6 flex-1">
           
           {step === 'time' && (
             <div className="space-y-6">
@@ -194,40 +194,42 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                 </span>
               </div>
 
-              {/* Seat Grid */}
-              <div className="space-y-2 max-w-md mx-auto py-2">
-                {['A', 'B', 'C', 'D', 'E', 'F'].map((row) => (
-                  <div key={row} className="flex items-center justify-center gap-1.5">
-                    <span className="w-5 text-[11px] font-mono text-slate-500 text-center font-bold">{row}</span>
-                    <div className="flex gap-1.5">
-                      {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => {
-                        const seatId = `${row}-${num}`;
-                        const isSelected = selectedSeats.includes(seatId);
-                        const isBooked = (row === 'B' && num === 4) || (row === 'C' && num === 5);
-                        return (
-                          <button
-                            key={seatId}
-                            disabled={isBooked}
-                            onClick={() => toggleSeat(seatId)}
-                            className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg text-[10px] font-mono font-bold transition-all flex items-center justify-center cursor-pointer ${
-                              isBooked
-                                ? 'bg-slate-800 text-slate-600 cursor-not-allowed opacity-40'
-                                : isSelected
-                                ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/30 scale-105'
-                                : 'bg-[#141b29] hover:bg-slate-700 text-slate-300 border border-white/5'
-                            }`}
-                          >
-                            {num}
-                          </button>
-                        );
-                      })}
+              {/* Seat Grid - Touch scrollable on narrow screens */}
+              <div className="overflow-x-auto py-2 -mx-2 px-2 scrollbar-none">
+                <div className="space-y-2 min-w-[280px] max-w-md mx-auto">
+                  {['A', 'B', 'C', 'D', 'E', 'F'].map((row) => (
+                    <div key={row} className="flex items-center justify-center gap-1.5">
+                      <span className="w-5 text-[11px] font-mono text-slate-500 text-center font-bold shrink-0">{row}</span>
+                      <div className="flex gap-1.5">
+                        {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => {
+                          const seatId = `${row}-${num}`;
+                          const isSelected = selectedSeats.includes(seatId);
+                          const isBooked = (row === 'B' && num === 4) || (row === 'C' && num === 5);
+                          return (
+                            <button
+                              key={seatId}
+                              disabled={isBooked}
+                              onClick={() => toggleSeat(seatId)}
+                              className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg text-[10px] font-mono font-bold transition-all flex items-center justify-center cursor-pointer shrink-0 ${
+                                isBooked
+                                  ? 'bg-slate-800 text-slate-600 cursor-not-allowed opacity-40'
+                                  : isSelected
+                                  ? 'bg-amber-400 text-slate-950 font-black shadow-md shadow-amber-400/30 scale-105'
+                                  : 'bg-[#141b29] hover:bg-slate-700 text-slate-300 border border-white/5'
+                              }`}
+                            >
+                              {num}
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
 
               {/* Legend */}
-              <div className="flex justify-center items-center gap-6 text-[11px] font-mono pt-2 border-t border-white/5">
+              <div className="flex justify-center items-center gap-4 sm:gap-6 text-[10px] sm:text-[11px] font-mono pt-2 border-t border-white/5">
                 <div className="flex items-center gap-1.5">
                   <div className="w-3.5 h-3.5 rounded bg-[#141b29] border border-white/10" />
                   <span className="text-slate-400">Available</span>
