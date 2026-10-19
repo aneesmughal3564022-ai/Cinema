@@ -29,14 +29,20 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       <div className="absolute inset-0 z-0">
         <img
           key={activeMovie.id}
-          src={activeMovie.bannerUrl}
+          src={activeMovie.bannerUrl || activeMovie.posterUrl}
           alt={`${activeMovie.title} Banner`}
-          className="w-full h-full object-cover object-center filter brightness-[0.5] contrast-[1.2] scale-105 transition-all duration-700"
+          className="w-full h-full object-cover object-center filter brightness-[0.82] contrast-[1.08] transition-all duration-700 animate-fadeIn"
           loading="eager"
+          onError={(e) => {
+            const target = e.currentTarget;
+            if (activeMovie.posterUrl && target.src !== activeMovie.posterUrl) {
+              target.src = activeMovie.posterUrl;
+            }
+          }}
         />
-        {/* Multi-tier Lateral & Vertical Scrim for Absolute Contrast */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#05070c] via-[#05070c]/85 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#05070c] via-[#05070c]/50 to-black/40" />
+        {/* Subtle Lateral & Vertical Scrim to ensure text is crisp while movie cover is clearly visible */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#05070c] via-[#05070c]/65 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#05070c] via-transparent to-black/30" />
         <div className="absolute top-0 left-1/4 w-[300px] sm:w-[500px] h-[200px] sm:h-[300px] bg-amber-500/10 blur-[100px] sm:blur-[140px] pointer-events-none rounded-full" />
       </div>
 
